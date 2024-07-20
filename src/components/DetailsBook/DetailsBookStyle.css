@@ -1,0 +1,138 @@
+.details-book {
+    padding: 100px 70px;
+    display: flex;
+    color: var(--title);
+    gap: 51.89px;
+}
+
+#details-book-img {
+    width: 476px;
+    height: 600px;
+}
+.d-b-body{
+    flex-grow: 3;
+}
+
+.details-book h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 3.58px;
+}
+
+.details-book h6 {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+#details-b-text {
+    margin-left: 3.29px;
+}
+
+#details-about-book {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 31.14px 0 10.38px 0;
+}
+
+.d-b-description {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.d-b-buttons {
+    margin: 31.14px 0;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    gap: 8.19px;
+}
+
+.d-b-buttons button {
+    width: 24.56px;
+    height: 24.91px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(147, 125, 194, 1);
+    font-size: 18px;
+    background-color: transparent;
+    color: var(--title);
+}
+
+.d-b-buttons-add {
+    width: 100%;
+    display: flex;
+    gap: 23.84px;
+}
+
+.d-b-buttons-add button {
+    flex-grow: 2;
+    height: 46.71px;
+    justify-content: center;
+    align-self: center;
+    border: 1px solid rgba(147, 125, 194, 1);
+    border-radius: 3%;
+}
+
+.d-b-buttons-add button:first-child {
+    background-color: rgba(147, 125, 194, 1);
+    color: white;
+}
+
+.d-b-buttons-add button:nth-child(2) {
+    background-color: transparent;
+    color: rgba(147, 125, 194, 1);
+}
+
+.details-book hr {
+    margin: 37.37px 0;
+    border: 1px solid rgba(147, 125, 194, 1);
+}
+
+.details-book .rates {
+    display: flex;
+    flex-direction: column;
+    gap: 19.72px;
+}
+
+.rate-pink {
+    align-items: center;
+    gap: 18.37px;
+}
+
+.details-book .rate-pink .p-pink {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24.03px;
+    color: rgb(198, 137, 198, 1)
+}
+
+@media(max-width:1150px) {
+    #details-book-img {
+        width: 350px;
+        height: 441px;
+    }
+}
+
+@media(max-width:992px) {
+    .details-book {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #d-b-img-box {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media(max-width:850px) {
+    .details-book {
+        padding: 31px 24px 31px 16px;
+
+    }}

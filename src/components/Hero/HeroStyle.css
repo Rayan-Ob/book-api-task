@@ -1,0 +1,81 @@
+.hero {
+    padding: 0px 70px 55px 70px;
+    height: calc(100vh - 80px);
+    display: flex;
+    align-items: center;
+    color: var(--title);
+    gap: 21.57%;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 31.3px;
+}
+
+.hero img {
+    width: 361.96px;
+    height: 454.8px;
+}
+
+#hero-title {
+    width: 140px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    border: 1px solid rgba(198, 137, 198, 1);
+    color: rgba(198, 137, 198, 1);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20.03px;
+}
+
+
+#desc-hero {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 30px 0;
+}
+
+#hero-btn-view-book {
+    width: 185px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    background-color: rgb(147, 125, 194, 1);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24.03px;
+    color: rgb(255, 255, 255, 1);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* =============================== Responsive ====================== */
+
+@media (max-width:1100px) {
+    .hero img {
+        width: 194.15px;
+        height: 258px;
+    }
+}
+
+@media (max-width:850px) {
+    .hero {
+        padding: 33px 24px 31px 16px;
+        height: auto;
+        gap: 34px;
+        flex-direction: column;
+    }
+}

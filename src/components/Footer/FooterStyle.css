@@ -1,0 +1,11 @@
+.footer {
+    width: 100%;
+    padding: 18px;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid rgba(147, 125, 194, 1);
+    color: var(--title);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24.03px;
+}

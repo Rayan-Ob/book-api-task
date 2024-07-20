@@ -1,0 +1,98 @@
+.card-book {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+}
+
+#main-img-card-book {
+    width: 100%;
+    max-height: 372px;
+    height: 100%;
+}
+
+.card-book-body {
+    margin-top: 5px;
+    height: 114px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: var(--title);
+}
+
+
+.card-book h3 {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24.03px;
+}
+
+.card-book-detail {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24.03px;
+    align-items: center;
+}
+
+.card-book-detail div {
+    align-items: center;
+    gap: 4px;
+}
+
+#boox-icon {
+    width: 18px;
+    height: 18px;
+}
+
+#star-icon {
+    width: 17px;
+    height: 17px;
+}
+
+#book-rate {
+    margin-right: 4px;
+}
+
+.card-book button {
+    width: 100%;
+    height: 40px;
+    border-radius: 2px;
+    background-color: var(--primary-purple);
+    border: none;
+    text-transform: capitalize;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24.03px;
+    color: var(--body-background);
+} 
+.card-book button a{
+    color: var(--body-background);
+
+}
+
+/* ============== Responsive ========== */
+@media (max-width:1300px) {
+    .card-book {
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    #main-img-card-book {
+        height: 290px;
+    }
+}
+
+@media (max-width:1055px) {
+
+     .card-book {
+        width: 280px;
+    }
+}
+
+@media (max-width:400px) {
+
+    .card-book {
+       width: 200px;
+   }
+}
+
